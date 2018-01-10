@@ -4,6 +4,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
+    
+    private int a;
+    private int b;
+    private int c;
 
     private int a;
     private int b;
@@ -14,13 +18,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         if(a != b){
             c = a;
+
         }
         if(a == b){
             c = a * b;
         }
     }
-
 
 }
